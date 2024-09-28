@@ -1,0 +1,101 @@
+.mainContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.upperContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upperContImg {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.upperContImg:hover {
+  transform: scale(1.1);
+}
+
+.star {
+  color: #ffd700;
+}
+
+.formMain {
+  margin-bottom: 20px;
+}
+
+.formSub {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.label svg {
+  margin-right: 5px;
+}
+
+.fileUpload {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.fileBox {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px dashed #007bff;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+.fileBox:hover {
+  background-color: #d6e0f5;
+}
+
+.fileBox span {
+  margin-left: 10px;
+}
+
+.fileBox label {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.buttonGroup button {
+  transition: transform 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  transform: scale(1.05);
+}
